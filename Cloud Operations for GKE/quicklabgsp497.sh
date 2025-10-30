@@ -17,7 +17,7 @@ gcloud config set compute/zone $ZONE
 gsutil cp gs://spls/gsp497/gke-monitoring-tutorial.zip .
 unzip gke-monitoring-tutorial.zip
 
-cd gke-monitoring-tutorial
+cd gke-monitoring-tutorial-master
 
 make create
 
